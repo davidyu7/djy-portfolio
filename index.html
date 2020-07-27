@@ -76,6 +76,28 @@
 
             <div id="active-content-container">
             </div>
+
+            <form id="comment-form" style="display: none">
+                <input type="hidden" id="form-project-id" value="">
+                <div class="form-row">
+                    <textarea class="form-control" id="commentText" aria-label="Leave a comment" rows="3" placeholder = "Leave a comment here..."></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-5">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="inputDisplayName">Display Name</label>
+                        <input type="text" class="form-control" id="inputDisplayName" placeholder="Display Name">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </div>
+                </div>
+                
+            </form>
+
         </div>
 
         <script src="src/index.js"></script>
